@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "Albertus-Extra-Bold-Regular";
+    src: url(../fonts/Albertus-Extra-Bold-Regular.ttf);
+}
+  
+@font-face {
+    font-family: "pt-sans-narrow-bold";
+    src: url(../fonts/pt-sans-narrow-bold.ttf);
+}
+  
+@font-face {
+    font-family: "pt-sans-bold";
+    src: url(../fonts/pt-sans-bold.ttf);
+}
+  
+@font-face {
+    font-family: "pt_sans_regular";
+    src: url(../fonts/pt_sans_regular.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    cursor: pointer;
+}
+html {
+    color: #fff;
+    min-width: 1240;
+    background-color: #040404;
+    max-width: 2560px;
+    margin: 0 auto;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container{
+    width: 1240px;
+    position: relative;
+    margin: 0 auto;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+header{
+    background: url(/img/header_background_2.jpg) center no-repeat;
+    min-height: 844px;
+}
+header .main-nav{
+    background: url(/img/main_nav_background.png) center no-repeat;
+    background-size: cover;
+    min-height: 92px;
+    padding-top: 5px;
+    max-width: 10000px;
+}
+header .main-nav a{
+    position: relative;
+}
+header .main-nav a span.start-game {
+    display: inline-block;
+    background: url(/img/start_game.png) center no-repeat;
+    background-size: cover;
+    height: 49px;
+    width: 155px;
+    position: absolute;
+    margin-top: 25px;
+}
+header .main-nav .start-game:hover {
+    background: url(/img/start_game_hover.png) center no-repeat;
+}
+header .main-nav .main-wrapper div {
+    float: left;
+}
+header .main-nav .start-game{
+    background: url(/img/start_game.png) center no-repeat;
+    background-size: cover;
+    height: 92px;
+    width: 267px;
+}
+header .main-nav ul li{
+    display: inline-block;
+}
+header .main-nav .lang-nav{
+    margin-top: 30px;
+    margin-left: 217px;
+}
+header .main-nav .lang-nav a{
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+header .main-nav .lang-nav a:hover {
+    opacity: 0.5;
+}
+header .main-nav .lang-nav li{
+    margin-right: 10px;
+}
+header .main-nav .navbar{
+    margin-left: 34px;
+    height: 100%;
+    margin-top: -4px;
+}
+header .main-nav .navbar li {
+    padding-top: 36px;
+    padding-bottom: 34px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 80px;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+}
+header .main-nav .navbar li:hover {
+    background-color: #5a5c4f;
+}
+ header .main-nav .navbar li:hover a {
+    text-decoration: none;
+}
+header .main-nav .navbar li a {
+    font-family: "pt-sans-narrow-bold", sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+}
+header .main-nav .navbar li a:hover {
+    background-color: #5a5c4f;
+}
+header .main-nav .navbar li a.main {
+    color: #ffd554;
+    text-decoration: none;
+}
